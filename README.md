@@ -16,3 +16,4 @@ The React Compiler is not enabled on this template because of its impact on dev 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
 ## Project overview
+Our project will focus on creating a web app which includes a front-end, back-end, database and deploying it. We will attempt to create a web app which can be used by many users, with different components, functionalities, interacting parts. To do so we have installed the react router and Axios and will be using many different react libraries to facilitate our coding journey. We will be using JavaScript to code the back-end and MongoDB as our database of choice. 
