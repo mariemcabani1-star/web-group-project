@@ -1,15 +1,14 @@
 {
-  "name": "groupweb",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "start": "react-scripts start",
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+"name": "ecomart",
+"version": "1.0.0",
+"private": true,
+"scripts": {
+"start": "react-scripts start",
+"build": "react-scripts build",
+"server": "node server/index.js",
+"dev": "concurrently \"npm:start\" \"npm:server\""
+}
+},
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
